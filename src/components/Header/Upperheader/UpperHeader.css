@@ -1,0 +1,31 @@
+.upper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*  leftupp */
+
+.leftupper {
+    display: flex;
+}
+
+
+
+/* this the rightside */
+
+
+.rightupper {}
+
+.rightupper ul {
+    display: flex;
+}
+
+.rightupper ul>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* end of the right upper */
