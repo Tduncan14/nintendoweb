@@ -1,0 +1,115 @@
+.TopMid {
+    background: #d6f0fa;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.stardrew {
+    background: white;
+    width: 80%;
+    display: flex;
+    height: fit-content;
+    isolation: isolate;
+    flex-direction: column;
+    height: 100%;
+    padding: 3rem;
+    margin-top: .5rem;
+    position: relative;
+    top: 1.5rem;
+    box-shadow: 10px 10px 20px 0px rgba(128, 128, 128, 0.75);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(128, 128, 128, 0.75);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(128, 128, 128, 0.75);
+}
+
+
+.galleryHead ul {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 1rem;
+}
+
+.galleryHead li {
+    list-style: none;
+}
+
+
+.galleryImage img {
+    border-radius: 5px;
+
+}
+
+
+/* .galleryArea */
+
+
+
+.galleryArea {
+    display: flex;
+    column-gap: 2rem;
+}
+
+
+
+.galleryImage .image {
+    width: 100%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.galleryImage {
+    flex: 1.5;
+
+}
+
+
+.infoSide {
+    flex: 1;
+
+}
+
+
+/* this is the heart area */
+
+
+.heart {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.buttonss {
+    display: flex;
+
+}
+
+
+.buttonDirect button {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: .7rem;
+    border-radius: 5px;
+    color: white;
+    background: red;
+    border: none;
+    outline: none;
+    column-gap: .7rem;
+    align-items: center;
+    margin-top: 1.4rem;
+
+}
+
+
+.lowerpButton {
+    width: 70%;
+    text-wrap: nowrap;
+    font-size: clamp(12px, 14px, 15px);
+    margin-top: 1rem;
+}

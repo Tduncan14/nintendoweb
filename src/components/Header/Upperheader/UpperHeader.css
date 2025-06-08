@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid lightgray;
 }
 
 
@@ -9,23 +10,90 @@
 
 .leftupper {
     display: flex;
+    flex: 2;
+
 }
+
+.leftlogo {
+    background: red;
+    padding: 1rem;
+
+}
+
+.leftupper button {
+    background: inherit;
+    color: white;
+    width: 90px;
+    border: solid 5px white;
+    text-align: center;
+    font-weight: 700;
+    padding: 0 1rem 0 1rem;
+    padding-top: .1rem;
+    outline: none;
+    border-radius: 102px;
+}
+
+.leftInput {
+    display: flex;
+    align-items: center;
+    flex: 1.5;
+    margin-left: 1rem;
+    position: relative;
+
+
+}
+
+.leftInput svg {
+    position: absolute;
+    top: .8rem;
+
+}
+
+.leftInput input {
+    outline: none;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    width: 40%;
+    padding-left: 2rem;
+    padding-bottom: .5rem;
+
+
+}
+
+.leftInput select {
+    border: none;
+    font-size: .96rem;
+    color: darkgray;
+    font-weight: 700;
+    padding-right: .9rem;
+    padding-bottom: .3rem;
+    border-bottom: 2px solid lightgray;
+    outline: none;
+}
+
+
 
 
 
 /* this the rightside */
 
 
-.rightupper {}
+.rightupper {
+    flex: 1;
+}
 
 .rightupper ul {
     display: flex;
+    gap: 20px;
 }
 
 .rightupper ul>li {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
+li {}
 
 /* end of the right upper */

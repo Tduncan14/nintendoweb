@@ -1,0 +1,63 @@
+.lowerHead {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+
+.lowerGrid {
+    display: flex;
+    justify-content: center;
+    column-gap: 55px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: gray;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-bottom: 2px solid lightgray;
+}
+
+
+.lowerGrid a {
+    text-decoration: none;
+    color: gray;
+}
+
+
+/* this is the secondLower */
+
+.secondLower {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding: 1rem;
+
+}
+
+.secondLnav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.secondRnav {
+    display: flex;
+    gap: 10px;
+
+
+}
+
+/* this is the horionzal line */
+.midDiv {
+    border-left: solid 2px lightgray;
+    height: 20px;
+    justify-self: center;
+    align-self: center;
+}
