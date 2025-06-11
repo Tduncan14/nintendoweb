@@ -1,0 +1,156 @@
+.lowermid {
+    display: flex;
+    flex-direction: column;
+    padding-right: 11rem;
+    padding-left: 11rem;
+}
+
+
+/* contentPlace */
+
+.contentPlace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: .5rem;
+    margin-top: 3.4rem;
+}
+
+
+/*  */
+
+.contentPara {
+    flex: 1;
+    padding: 1rem;
+}
+
+
+
+.contentPara p {
+    margin-bottom: 1rem;
+    font-size: clamp(14px, 15px, 16px);
+    color: gray;
+}
+
+
+.appearD {
+    display: none;
+}
+
+.paraD {
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background: inherit;
+}
+
+
+
+
+
+.contentImage {
+    flex: 1;
+    padding: 1rem;
+}
+
+
+
+
+
+/* rating area */
+
+.esba {
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    /* 🔧 Make children same height */
+    margin-top: 1.5rem;
+    column-gap: 1.4rem;
+    padding: 1rem;
+
+
+}
+
+
+.leftRating {
+    display: flex;
+    flex-direction: column;
+    background: #efefef;
+    padding: 2rem;
+    flex: 1;
+    border-radius: 5px;
+    column-gap: 1rem;
+    max-height: 250px;
+
+
+}
+
+.leftRating h1 {
+    align-self: center;
+    font-size: 18px;
+    margin-bottom: .9rem;
+}
+
+.smallerBox {
+    display: flex;
+    background-color: white;
+    padding: 1rem;
+    column-gap: 1rem;
+}
+
+.smallerBox img {
+    height: 100px;
+}
+
+
+.playerModes {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background: #efefef;
+    padding: 2rem;
+    max-height: 250px;
+    border-radius: 5px;
+
+}
+
+
+.playerModes h1 {
+    align-self: center;
+    font-size: 18px;
+    margin-bottom: .9rem;
+}
+
+.gameBox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    padding: 2rem;
+}
+
+
+.gamesvg {
+    background: #0b2b6b;
+    justify-self: flex-start;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 5px;
+}
+
+.gameBox svg {
+
+    color: white;
+}
+
+.containG {
+    display: flex;
+    flex-direction: column;
+}
+
+.containG h1 {
+    margin-top: 1rem;
+    font-size: clamp(14px, 16px, 18px);
+}
