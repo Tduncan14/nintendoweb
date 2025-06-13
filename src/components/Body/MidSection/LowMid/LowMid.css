@@ -154,3 +154,47 @@
     margin-top: 1rem;
     font-size: clamp(14px, 16px, 18px);
 }
+
+
+/* contentArea */
+
+.contentSpecs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+
+
+.specs:nth-child(1) {
+    border-top: 3px solid #efefef;
+}
+
+.specs {
+    width: 95%;
+    padding: 1.5rem 1.6rem 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 3px solid #efefef;
+
+}
+
+
+
+.specsIcon {
+    flex: 1.5;
+    display: flex;
+    column-gap: 1.1rem;
+    align-items: center;
+
+}
+
+
+.specs p {
+    justify-self: start;
+    align-self: flex-start;
+    flex: 2;
+
+}
