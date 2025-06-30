@@ -331,3 +331,16 @@ ul {
     font-size: clamp(14px, 14px, 15px);
     column-gap: 4rem;
 }
+
+
+
+.specialwarning {
+    margin-top: 3rem;
+    font-size: clamp(12px, 14px, 15px);
+    width: 96%;
+    color: #434342;
+}
+
+.specialwarning p:first-child {
+    margin-bottom: 1rem;
+}

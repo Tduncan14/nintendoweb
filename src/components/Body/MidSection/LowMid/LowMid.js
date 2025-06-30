@@ -416,6 +416,12 @@ const LowMid = () => {
 
 
                         <div className="specialwarning">
+                            <p>Nintendo Switch Online membership(sold seperately) and Nintendo Account required for online play. Not available in all countries. Internet access required for online features. Terms apply nintendo.com/switch-online</p>
+
+
+                            <p>Stardew Valley &#169; ConcernedApe LLC 2016-2020. All rights reserved</p>
+
+
 
                         </div>
                     </div>

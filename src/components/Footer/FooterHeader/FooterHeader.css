@@ -1,0 +1,62 @@
+.icons {
+    margin-top: 2rem;
+}
+
+
+.icons svg {
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.9rem;
+    background: #e60012;
+
+}
+
+.buttonlogo {
+    display: flex;
+
+}
+
+
+.buttonlogo button {
+    border-radius: 50px;
+    border: solid white 5px;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-top: .11rem;
+    padding-bottom: .11rem;
+    background: #e60012;
+
+}
+
+
+.buttonlogo button h1 {}
+
+.iconslogo {}
+
+.sonar {
+    font-size: .7rem;
+    position: relative;
+    top: -.8rem;
+}
+
+.icons ul {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 2rem;
+}
+
+
+.icons li {
+    list-style-type: none;
+}
