@@ -6,6 +6,6 @@
 
 
 .app {
-  width: 100%;
-  max-width: 1200px;
+  min-width: 100%;
+
 }
