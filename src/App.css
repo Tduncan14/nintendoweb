@@ -5,7 +5,30 @@
 }
 
 
-.app {
-  min-width: 100%;
+.App {}
 
+
+@media (max-width: 768px) {
+  .centerMee {
+    width: 100%;
+    /* full width container */
+    padding-left: 2rem;
+    /* equal left padding */
+    padding-right: 2rem;
+    /* equal right padding */
+    margin: 0 auto;
+    /* center the container itself */
+    box-sizing: border-box;
+    /* include padding in width */
+
+    display: block;
+    /* normal block flow */
+  }
+
+  /* Optional: make sure child elements don’t overflow */
+  .centerMee>* {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

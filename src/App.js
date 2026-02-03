@@ -8,10 +8,12 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <MidSection />
-      <LowMid />
-      <Footer />
+      <div className='centerMee'>
+        <Header />
+        <MidSection />
+        <LowMid />
+        <Footer />
+      </div>
     </div>
   );
 }

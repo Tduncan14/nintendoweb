@@ -5,7 +5,6 @@
     justify-content: space-between;
     color: white;
     text-wrap: nowrap;
-    min-width: 100%;
     padding-top: 2rem;
     align-items: center;
     padding-bottom: 2rem;
@@ -23,6 +22,7 @@
 .rightFoot {
     display: flex;
     text-wrap: nowrap;
+    margin-left: 2rem;
     font-size: clamp(12px, 13px, 14px);
     align-items: center;
 
@@ -35,7 +35,7 @@
     align-self: center;
     align-items: center;
     justify-items: center;
-    row-gap: 210px;
+    row-gap: 180px;
 }
 
 .rightFoot li {
@@ -59,4 +59,79 @@
 .flag img {
     height: 40px;
     width: 40px;
+}
+
+
+
+@media (max-width:768px) {
+
+    .footerbottom {
+        background: #434242;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        display: flex;
+        flex-direction: column;
+        color: white;
+
+
+
+
+    }
+
+
+    .leftFoot {
+        margin-right: 1rem;
+        font-size: clamp(12px, 15px, 16px);
+        text-wrap: wrap;
+        margin-bottom: 1rem;
+        text-align: center;
+
+    }
+
+    .rightFoot {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        font-size: clamp(12px, 13px, 14px);
+        align-items: center;
+        text-align: center;
+        padding-right: 2rem;
+
+    }
+
+
+    .rightFoot ul {
+        display: flex;
+        justify-content: space-between;
+        align-self: center;
+        align-items: center;
+        justify-items: center;
+        row-gap: 180px;
+    }
+
+    .rightFoot li {
+        align-self: center;
+        justify-self: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+
+    .flag {
+        display: flex;
+        font-size: clamp(12px, 13px, 14px);
+        margin-left: 1rem;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flag img {
+        height: 40px;
+        width: 40px;
+    }
+
+
+
 }

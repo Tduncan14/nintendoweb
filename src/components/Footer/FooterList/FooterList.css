@@ -65,3 +65,19 @@ li>a {
 .firstborder {
     border: none;
 }
+
+
+
+@media(max-width:768px) {
+    .ListContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1.5rem;
+        padding-right: 2.4rem;
+        padding-left: 2.4rem;
+        column-gap: 3rem;
+        margin-bottom: 4rem;
+        font-size: clamp(12px, 15px, 18px);
+    }
+
+}
